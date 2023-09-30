@@ -1,2 +1,27 @@
-console.log("dfdfddfde");
-alert("A")
+
+btnSearch.addEventListener("click",()=>{
+  const userName = inputSearch.value;
+  if (validateInput(userName)) return;
+  displayUser(userName);
+});
+
+function validateInput(userName){
+  if(userName.length===0){
+      alert("Por favor, preencha o campo com o nome do usuário que deseja buscar");
+      return true;
+  }
+}
+
+inputSearch.addEventListener("keyup",(e)=>{
+  const userName = e.target.value;
+  const key = e.which || e.keyCode;
+  const isEnterKeyPressed = key === 13;
+  if(isEnterKeyPressed){
+      if (validateInput(userName)) return;
+      displayUser(userName);
+  }
+});
+
+async function displayUser(userName){
+  alert(userName);
+}
