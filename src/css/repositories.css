@@ -1,0 +1,50 @@
+.repositories{
+    width: 220px;
+}
+.repositories .repository{
+  margin: 4px 0px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.repositories .repository:hover{
+    text-shadow: 0px 1px 1px var(--darkColor);
+    opacity: 50%;
+}
+.repositories .repositoryData{
+    display: none;
+    text-align: justify;
+    text-align-last:left;
+    font-size: 0.75em;
+    font-weight: 300;
+    margin: 0px 10px;
+}
+.repositories .checker:hover{
+    text-shadow: 0px 1px 3px var(--darkColor);
+}
+.repositories .repositoryData.repositoryStats{
+    justify-content: space-between;
+    border-bottom: solid 1px ;
+    margin: 10px 10px 15px 10px;
+    box-shadow: 0px 5px 10px -5px var(--darkColor);  
+}
+.repositories .unchecked{
+    display: none;
+}
+.repositories .icon-right {
+    float: right;
+    margin-left: 10px; 
+}
+input[type=radio]{
+   display: none;
+}
+input[type=radio]:checked ~ .repositoryData{
+    display: flex;
+}
+input[type=radio]:checked ~ .cheked{
+    display: none;
+}
+input[type=radio]:checked ~ .unchecked{
+    display: contents;
+}
+
+

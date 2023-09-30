@@ -1,0 +1,9 @@
+:root{
+    --brightColor:rgb(224, 238, 250);
+    --darkColor:#1b2941;
+    --pushEventColor: rgb(50, 50, 99);
+    --createEventColor: rgb(111, 43, 52);
+    --cardWidth:300px;
+    --innerElementsWidth:220px;
+    --standardFont:'Roboto', sans-serif;
+}

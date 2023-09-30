@@ -1,0 +1,52 @@
+.user{
+    width: var(--innerElementsWidth);
+    display: flex;
+    justify-content: center;
+    font-family: var(--standardFont);
+}
+.user ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user .name{
+    font-weight: 900;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--darkColor);
+}
+.user .login{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.0rem;
+    color: var(--darkColor);
+    margin-bottom: 20px;
+    opacity:80%
+}
+.user .picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    background-color: var(--brightColor);
+    box-shadow: 0px 0px 20px var(--darkColor);
+}
+.user .bio{
+    text-align: justify;
+    text-align-last:left;
+    font-size: 0.65rem;
+    font-weight: 300;
+    margin-bottom: 7px;
+    color: var(--darkColor);
+}
+.user ul .popularity{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.75rem;
+    color: var(--darkColor);
+}
+  

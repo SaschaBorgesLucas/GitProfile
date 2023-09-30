@@ -1,0 +1,75 @@
+
+
+body{
+  width: 100vw;
+  background-color: var(--darkColor);
+  display: flex;
+  justify-content: center;
+}
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 1px 3px var(--darkColor);
+}
+.main{
+  padding: 50px;
+}
+.title{
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: var(--brightColor);
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--standardFont);
+}
+.search{
+  width: var(--cardWidth);
+  padding: 0px 20px ;
+  height: 20px;
+  display: flex;
+  padding: 10px, 0px;
+  justify-content: space-between;
+  font-family: var(--standardFont);
+  margin-bottom: 18px;
+}
+.search ::placeholder{
+  font-size: 0.70rem;
+  opacity: 75%;
+}
+.search .searchBar{
+  border: none;
+  color: var(--darkColor);
+  border-radius: 40px;
+  padding-left: 7px;
+}
+.searchBar:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px var(--brightColor);
+}
+.btnSearch{
+  height: 20px;
+  width: 65px;
+  border: none;
+  background-color: white;
+  color: var(--darkColor);
+  border-radius: 30px;
+}
+.btnSearch:hover{
+  box-shadow: 0px 0px 10px var(--brightColor);
+}
+.container{
+  width: var(--cardWidth);
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--brightColor);
+  flex-direction: column;
+  padding-left: 40px;
+}
+.header{
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.0rem;
+  color: var(--darkColor);
+  margin-bottom: 7px;
+}
