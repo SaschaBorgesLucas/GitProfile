@@ -1,4 +1,4 @@
-import { gitHubApiUrl } from '/src/js/variables.js'
+import { gitHubApiUrl } from './variables.js'
 
 async function getGitHubUser(userName){
     const apiResponse = await fetch(`${gitHubApiUrl}/${userName}`);
