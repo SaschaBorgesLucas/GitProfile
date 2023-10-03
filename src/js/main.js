@@ -1,8 +1,8 @@
-import {getGitHubUser} from './src/js/services/gitHubUser.js';
-import {getGitHubRepositories} from './src/js/services/gitHubUserRepositories.js';
-import {getGitHubEvents} from './src/js/services/gitHubUserEvents.js';
-import {user} from './src/js/objects/user.js';
-import {screen} from './src/js/objects/screen.js';
+import {getGitHubUser} from './services/gitHubUser.js';
+import {getGitHubRepositories} from './services/gitHubUserRepositories.js';
+import {getGitHubEvents} from './services/gitHubUserEvents.js';
+import {user} from './objects/user.js';
+import {screen} from './objects/screen.js';
 
 btnSearch.addEventListener("click",()=>{
   const userName = inputSearch.value;
