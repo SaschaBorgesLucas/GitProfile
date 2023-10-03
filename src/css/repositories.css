@@ -1,5 +1,6 @@
 .repositories{
     width: 220px;
+    max-width: 250px;
 }
 .repositories .repository{
   margin: 4px 0px;
@@ -17,6 +18,9 @@
     font-size: 0.75em;
     font-weight: 300;
     margin: 0px 10px;
+}
+.repositories .repositoryData .url{
+    word-break: break-all;
 }
 .repositories .checker:hover{
     text-shadow: 0px 1px 3px var(--darkColor);

@@ -1,3 +1,8 @@
+import {getGitHubUser} from "/src/js/services/gitHubUser.js";
+import {getGitHubRepositories} from "/src/js/services/githubUserRepositories.js";
+import {getGitHubEvents} from "/src/js/services/githubUserEvents.js";
+import {user} from "/src/js/objetcs/user.js";
+import {screen} from "/src/js/objetcs/screen.js"
 
 btnSearch.addEventListener("click",()=>{
   const userName = inputSearch.value;
@@ -23,5 +28,13 @@ inputSearch.addEventListener("keyup",(e)=>{
 });
 
 async function displayUser(userName){
-  alert(userName);
+  const userResponse = await getGitHubUser(userName);
+  if(userResponse.message==="Not Found"){
+    screen.renderUserNotUser(user);
+    return;
+  }
+  user.setInfo(userResponse);
+  user.setRepositories(await getGitHubRepositories(userName));
+  user.setEvents(await getGitHubEvents(userName));
+  screen.render(user);
 }
