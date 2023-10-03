@@ -1,4 +1,4 @@
-import { gitHubApiUrl, quantityOfEvents } from './variables.js'
+import { gitHubApiUrl, quantityOfEvents } from '../variables.js'
 
 async function getGitHubEvents(userName){
     const apiResponse = await fetch(`${gitHubApiUrl}/${userName}/events?per_page=${quantityOfEvents}`);

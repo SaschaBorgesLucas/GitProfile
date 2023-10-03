@@ -1,4 +1,4 @@
-import {gitHubApiUrl, quantityOfrepositories} from './variables.js'
+import {gitHubApiUrl, quantityOfrepositories} from '../variables.js'
 
 async function getGitHubRepositories(userName){
     const apiResponse = await fetch(`${gitHubApiUrl}/${userName}/repos?per_page=${quantityOfrepositories}`);
