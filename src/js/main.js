@@ -1,22 +1,20 @@
-import { getGitHubUser } from './gitHubUser.js';
-import {getGitHubRepositories} from './gitHubUserRepositories.js';
-import {getGitHubEvents} from './gitHubUserEvents.js';
-import {user} from './user.js';
-import {screen} from './screen.js';
+import {getGitHubUser} from './src/js/services/gitHubUser.js';
+import {getGitHubRepositories} from './src/js/services/gitHubUserRepositories.js';
+import {getGitHubEvents} from './src/js/services/gitHubUserEvents.js';
+import {user} from './src/js/objects/user.js';
+import {screen} from './src/js/objects/screen.js';
 
 btnSearch.addEventListener("click",()=>{
   const userName = inputSearch.value;
   if (validateInput(userName)) return;
   displayUser(userName);
 });
-
 function validateInput(userName){
   if(userName.length===0){
       alert("Por favor, preencha o campo com o nome do usuário que deseja buscar");
       return true;
   }
 }
-
 inputSearch.addEventListener("keyup",(e)=>{
   const userName = e.target.value;
   const key = e.which || e.keyCode;
@@ -26,7 +24,6 @@ inputSearch.addEventListener("keyup",(e)=>{
       displayUser(userName);
   }
 });
-
 async function displayUser(userName){
   const userResponse = await getGitHubUser(userName);
   if(userResponse.message==="Not Found"){
