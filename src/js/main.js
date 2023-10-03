@@ -1,6 +1,6 @@
 import { getGitHubUser } from './gitHubUser.js';
-import {getGitHubRepositories} from './githubUserRepositories.js';
-import {getGitHubEvents} from './githubUserEvents.js';
+import {getGitHubRepositories} from './gitHubUserRepositories.js';
+import {getGitHubEvents} from './gitHubUserEvents.js';
 import {user} from './user.js';
 import {screen} from './screen.js';
 
