@@ -38,9 +38,11 @@
 </ol>
 
 <h2>Solução</h2>
-
-
-
+<h3>Busca</h3>
+<p>A página se apresenta conforme as imagens abaixo. ao clicar no campo de texto ele ganha um brilho leve (2ªimagem), caso o usuário aperte a tecla enter ele vai fazer uma pesquisa; ele também pode fazer a pesquisa cicando no botão "Search" que fica iluminado ao se possicionar o cursor emcima dele (3ªimagem)</p>
+<img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/f840c3ad-3378-42a9-90e7-04308c88a946" width="200px" height="200px"/>
+<img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/0f8254c2-ecf2-4912-8a91-ca8211e94583" width="200px" height="200px"/>
+<img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/204a6bf5-68c4-4e10-8c67-2f0544c6c3a4" width="200px" height="200px"/>
 
 
 
