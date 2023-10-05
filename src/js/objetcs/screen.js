@@ -23,7 +23,7 @@ function renderUser(user){
                                 </p>
                             </li>
                             <li>
-                                <img src="${user.avatarUrl ??'./src/images/userImgNotFound.png'} " class="picture" alt="foto de perfil"/>
+                                <img src="${user.avatarUrl} " class="picture" alt="foto de perfil"/>
                             </li>
                             <li>
                             <p class="bio">${user.bio}</p>
@@ -111,12 +111,11 @@ function userNotFound(){
     const renderHTML = `<div>
                             <h1 class="name"> User not found </h1>
                             </br></br></br>
-                            <img src="./src/images/userImgNotFound.png" class="picture" alt="foto de perfil"/>
+                            <img src="./src/img/userImgNotFound.png" class="picture" alt="foto de perfil"/>
+
+                            <p class="bio">Maybe this user doesn't exist, hasn't been registered yet, or you typed their name wrong. Please try again.</p>
                         </div>`
     return renderHTML 
 }
 export{screen}
-
-
-
 
