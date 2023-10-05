@@ -43,7 +43,13 @@
 <img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/f840c3ad-3378-42a9-90e7-04308c88a946" width="200px" height="200px"/>
 <img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/0f8254c2-ecf2-4912-8a91-ca8211e94583" width="200px" height="200px"/>
 <img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/204a6bf5-68c4-4e10-8c67-2f0544c6c3a4" width="200px" height="200px"/>
-
+<h3>Apresentação das informações</h3>
+<table>
+  <tr>
+    <td><img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/f840c3ad-3378-42a9-90e7-04308c88a946" width="200px" height="200px"/></td>
+    <td>Caso um usuário seja encontrato o sistema vai retornar a tela à esquerda</td>
+  </tr>
+</table>
 
 
 <h2>Padrões do projeto</h2>
