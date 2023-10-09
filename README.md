@@ -60,9 +60,9 @@
 <p>Como há muitas informações e podem haver muitos repositórios eles são apresentados em lista. Ao passar o cursos pelo nome do repositório é possível acessar o repositório, como um link. Caso o usuário clique no <b>+</b> ele expande e apresentas</p>
 <img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/5f21eba3-ccb9-4d52-8f35-5824cb095091" width="50%" height="50%"/>
 <p>Não fazia parte dos requisitos, mas foi adicionada a descrição do repositório, além disso ao se possicionar o cursos sobre os icones, aparece uma legenda para aqueles icones menos óbvios.</p>
-
-
-<img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/b7be850e-926c-412f-9cd7-31dd7a210f41" width="50%" height="50%"/>
+<h4>Eventos</h4>
+<img src="https://github.com/SaschaBorgesLucas/GitProfile/assets/35588147/3e6a7d03-81b5-472a-8286-4fbfdb78ed78" width="50%" height="50%"/>
+<p>Os eventos são apresentados em uma lista e identificados por discus vermelhos para create eventes e azuis para push events.</p>
 <h2>Padrões do projeto</h2>
 <h3>Versionamento</h3>
 <p><b>Commits:</b> todos os comits vão seguir o seguinte padrão: data no formato dd/mm/aaaa.quantidade de alterações no código feitas naquele dia - autor: mensagem.</p><p>Exemplo:<i>"30/09/2023.1 - Sascha: First commit."</i></p><p><b>!!!:</b> Exceto para os commits do arquivo README.md, estes não possuem mensagens em seus commits</p>
